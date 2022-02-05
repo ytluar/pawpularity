@@ -11,7 +11,7 @@ timm (PyTorch Image Models) - https://www.kaggle.com/kozodoi/timm-pytorch-image-
 Swin Transformer - https://www.kaggle.com/tanlikesmath/swin-transformer <br />
 ConvNeXt - https://github.com/facebookresearch/ConvNeXt <br />
 
-Models are trained in Tensorflow/ fastai PyTorch. The ensemble of the models achieved Top 3% in the private leaderboard. Model weights are not added in the repository.
+Models are trained in Tensorflow/ fastai PyTorch. Model weights are not added in the repository.
 
 Special thanks to the fastai starter notebook: https://www.kaggle.com/adityasharma01/fork-of-17-90508-notebook/notebook
 
@@ -25,6 +25,8 @@ Models
 | swin_384_large | 17.652 |
 | convnext_xlarge | 17.624 |
 | Ensembled (Average) | 17.284 |
+
+The ensemble of the models achieved Top 3% on the private leaderboard. 
 
 Things that wanted to try but did not manage to do due to time constraint: <br />
 * Try different models such as ViT, BEiT, EfficientNetV2.
