@@ -3,7 +3,7 @@
 Competition link: https://www.kaggle.com/c/petfinder-pawpularity-score <br />
 Kaggle competition to predict the popularity of shelter pet photos to help stray cats and dogs finding their homes.
 
-The models here are all trained on Kaggle except for the training of ConvNeXt model which is on Google Colab. Therefore, the paths in the notebook will need to be adjusted.
+The models here are all trained on Kaggle except for the training of ConvNeXt model which is on Google Colab. Therefore, the paths in all notebooks will need to be adjusted.
 
 Paths imported: <br />
 GPUtil - https://www.kaggle.com/tusonggao/gputil <br />
