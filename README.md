@@ -1,18 +1,17 @@
 # PetFinder.my - Pawpularity Contest
 
-https://www.kaggle.com/c/petfinder-pawpularity-score
-
+https://www.kaggle.com/c/petfinder-pawpularity-score <br />
 Predict the popularity of shelter pet photos to help stray cats and dogs finding their homes.
 
 The notebooks here are all trained in Kaggle platform. Therefore, the paths in the notebook will need to be adjusted.
 
-Paths imported:
-GPUtil - https://www.kaggle.com/tusonggao/gputil
-timm (PyTorch Image Models) - https://www.kaggle.com/kozodoi/timm-pytorch-image-models
-Swin Transformer - https://www.kaggle.com/tanlikesmath/swin-transformer
-ConvNeXt - https://github.com/facebookresearch/ConvNeXt
+Paths imported: <br />
+GPUtil - https://www.kaggle.com/tusonggao/gputil <br />
+timm (PyTorch Image Models) - https://www.kaggle.com/kozodoi/timm-pytorch-image-models <br />
+Swin Transformer - https://www.kaggle.com/tanlikesmath/swin-transformer <br />
+ConvNeXt - https://github.com/facebookresearch/ConvNeXt <br />
 
-Models are trained in Tensorflow/ fastai PyTorch
+Models are trained in Tensorflow/ fastai PyTorch. The ensemble of the models achieved Top 3% in the private leaderboard. Model weights are not added in the repository.
 
 Special thanks to the fastai starter notebook: https://www.kaggle.com/adityasharma01/fork-of-17-90508-notebook/notebook
 
@@ -26,3 +25,8 @@ Models
 | swin_384_large | 17.652 |
 | convnext_xlarge | 17.624 |
 | Ensembled (Average) | 17.284 |
+
+Things that wanted to try but did not manage to do due to time constraint: <br />
+* Try different models such as ViT, BEiT, EfficientNetV2.
+* Use different ensemble methods such as stacking, weighted average etc.
+* Adding SVR heads. Details can be found here https://www.kaggle.com/c/petfinder-pawpularity-score/discussion/276724
