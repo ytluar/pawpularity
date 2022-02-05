@@ -1,7 +1,7 @@
 # PetFinder.my - Pawpularity Contest
 
-https://www.kaggle.com/c/petfinder-pawpularity-score <br />
-Predict the popularity of shelter pet photos to help stray cats and dogs finding their homes.
+Competition link: https://www.kaggle.com/c/petfinder-pawpularity-score <br />
+Kaggle competition to predict the popularity of shelter pet photos to help stray cats and dogs finding their homes.
 
 The notebooks here are all trained in Kaggle platform. Therefore, the paths in the notebook will need to be adjusted.
 
@@ -11,7 +11,7 @@ timm (PyTorch Image Models) - https://www.kaggle.com/kozodoi/timm-pytorch-image-
 Swin Transformer - https://www.kaggle.com/tanlikesmath/swin-transformer <br />
 ConvNeXt - https://github.com/facebookresearch/ConvNeXt <br />
 
-Models are trained in Tensorflow/ fastai PyTorch. Model weights are not added in the repository.
+Models are trained in Tensorflow/ fastai PyTorch. Model weights are not added into the repository.
 
 Special thanks to the fastai starter notebook: https://www.kaggle.com/adityasharma01/fork-of-17-90508-notebook/notebook
 
